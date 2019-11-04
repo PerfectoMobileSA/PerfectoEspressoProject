@@ -2,10 +2,13 @@
   "cloudURL": "<<cloud name>>",
   "securityToken": "<<SECURITY TOKEN>>",
   "devices": [
-	  {},
+	  {
+        "platformName": "Android",
+        "model": "Galaxy.*"
+      },
       {
 			"platformName": "Android",
-			"platformVersion": "^[678].*"
+            "model": "Galaxy.*"
 	  }
   ],
   "jobName": "some_job",
