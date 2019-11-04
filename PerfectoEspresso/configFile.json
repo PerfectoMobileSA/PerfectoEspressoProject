@@ -1,0 +1,28 @@
+{
+  "cloudURL": "<<cloud name>>",
+  "securityToken": "<<SECURITY TOKEN>>",
+  "devices": [
+	  {},
+      {
+			"platformName": "Android",
+			"platformVersion": "^[678].*"
+	  }
+  ],
+  "jobName": "some_job",
+  "jobNumber": 1,
+  "branch": "some_branch",
+  "projectName": "My_Espresso_project",
+  "projectVersion": "v1.0",
+  "tags": [
+    "espresso", "plugin"
+  ],
+  "apkPath": "app/build/outputs/apk/debug/app-debug.apk",
+  "testApkPath": "app/build/outputs/apk/androidTest/debug/app-debug-androidTest.apk",
+  "installationDetails" : {"preCleanUp" : "true"},
+  "postExecution" : {"uninstall" : "false" },
+  "debug": false,
+  "failBuildOnFailure": false,
+  "takeScreenshotOnTestFailure": true,
+  "shard": false,
+  "testTimeout" : 60000
+}
