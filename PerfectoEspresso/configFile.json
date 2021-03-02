@@ -24,7 +24,7 @@
   "installationDetails" : {"preCleanUp" : "true"},
   "postExecution" : {"uninstall" : "false" },
   "debug": false,
-  "failBuildOnFailure": false,
+  "failBuildOnFailure": true,
   "takeScreenshotOnTestFailure": true,
   "shard": false,
   "testTimeout" : 60000
