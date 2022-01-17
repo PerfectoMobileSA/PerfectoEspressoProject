@@ -4,11 +4,11 @@
   "devices": [
 	{
         	"platformName": "Android",
-        	"model" : "Galaxy S.*" 
+        	"model" : "(?!.*Tab).*" 
       	},
       	{
 	   	"platformName": "Android",
-           	"model" : "Galaxy S.*" 
+           	"model" : "(?!.*Tab).*" 
 	}
   ],
   "jobName": "some_job",
@@ -27,5 +27,6 @@
   "failBuildOnFailure": true,
   "takeScreenshotOnTestFailure": true,
   "shard": false,
-  "testTimeout" : 60000
+  "testTimeout" : 60000,
+  "itmsServerUrl":"https://itms2-us.perfectomobile.com"
 }
