@@ -1,5 +1,5 @@
 {
-  "cloudURL": "<<cloud name>>",
+  "cloudURL": "<<cloud name>>.perfectomobile.com",
   "securityToken": "<<SECURITY TOKEN>>",
   "devices": [
 	{
@@ -27,6 +27,5 @@
   "failBuildOnFailure": true,
   "takeScreenshotOnTestFailure": true,
   "shard": false,
-  "testTimeout" : 60000,
-  "itmsServerUrl":"https://itms2-us.perfectomobile.com"
+  "testTimeout" : 60000
 }
