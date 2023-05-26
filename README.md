@@ -9,7 +9,7 @@
 - Run the below gradle task to run Espresso tests on real devices:</br></br>
 `./gradlew perfecto-android-inst -PconfigFileLocation=configFile.json -PcloudURL=${url} -PsecurityToken=${securityToken}`</br></br>
 
-- Run the below gradle task to run Espresso tests on virtual devices: (Coming soon!)</br></br>
+- Run the below gradle task to run Espresso tests on virtual devices:</br></br>
 `./gradlew perfecto-android-inst-vd -PconfigFileLocation=configFile.json -PcloudURL=${url} -PsecurityToken=${securityToken}`</br>
 
 ### Note: 
