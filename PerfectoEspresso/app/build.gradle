@@ -22,9 +22,6 @@ android {
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
-    lintOptions {
-        abortOnError false
-    }
     productFlavors {
     }
     testOptions {
@@ -45,6 +42,10 @@ android {
             }
         }
     }
+    lint {
+        abortOnError false
+    }
+    namespace 'com.example.android.testing.espresso.BasicSample'
 }
 
 tasks.withType(org.jetbrains.kotlin.gradle.tasks.KotlinCompile).all {
